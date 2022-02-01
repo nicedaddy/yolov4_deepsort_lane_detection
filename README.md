@@ -1,4 +1,4 @@
-# yolov4-deepsort
+# yolov4-deepsort (Lane Detection and Collision Warning added)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zmeSTP3J5zu2d5fHgsQC06DyYEYJFXq1?usp=sharing)
 
@@ -9,6 +9,13 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a s
 
 ## Demo of Object Tracker on Cars
 <p align="center"><img src="data/helpers/cars.gif"\></p>
+
+## Lane Detection and Collision Warning added
+<p align="center"><img src="data/helpers/demo1.gif" width="650"></p>
+
+<p>
+<img src="data/demo.gif" width="500"/> 
+</p>
 
 ## Getting Started
 To get started, install the proper dependencies either via Anaconda or Pip. I recommend Anaconda route for people using a GPU as it configures CUDA toolkit version for you.
